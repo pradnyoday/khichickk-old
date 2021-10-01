@@ -172,8 +172,8 @@ SIMPLE_JWT = {
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'khichichickk.com@gmail.com'
-EMAIL_HOST_PASSWORD = 'rygisgtvymgzacds'
+EMAIL_HOST_USER = 'email@gmail.com'
+EMAIL_HOST_PASSWORD = 'pass'
 EMAIL_USE_TLS = True
 
 
@@ -199,8 +199,8 @@ DJOSER = {
     },
 }
 
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '477401950795-6elvdbun6a110oe8uu5n488v6gefj1d4.apps.googleusercontent.com'
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '3sytR5WuJtK-RjKyL5vH5jt6'
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = 'oauth-key'
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'secret-key'
 SOCIAL_AUTH_GOOGLE_OAUTH2_SCOPE = ['https://www.googleapis.com/auth/userinfo.email', 'https://www.googleapis.com/auth/userinfo.profile', 'openid']
 SOCIAL_AUTH_GOOGLE_OAUTH2_EXTRA_DATA = ['first_name', 'last_name']
 
